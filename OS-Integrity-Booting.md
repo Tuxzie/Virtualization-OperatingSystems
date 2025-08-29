@@ -1,7 +1,12 @@
-# Downloading an Operating System
+# Setting up an OS for Virtualization or Dual Booting
+
+## Downloading an OS
   Usually, you enter an official website and/or a GitHub repository. When you download an operating system,
 it becomes an image file initially, which must become bootable for BIOS, or that image can become bootable
 if using that OS for a Virtual Machine.
+
+If you plan to do virtualization/VM you'll need to enable the Virtualization option in the BIOS for the 
+motherboard and respective CPU (AMD or Intel).
 
 ## Partitioning Storage, USB Image Writer/RUFUS, BIOS/VM, and Verify Integrity
   If you want to dual-boot or boot more than a single OS, it is necessary and wise to partition the disk size to
