@@ -6,7 +6,8 @@ it becomes an image file initially, which must become bootable for BIOS, or that
 if using that OS for a Virtual Machine.
 
 If you plan to do virtualization/VM you'll need to enable the Virtualization option in the BIOS for the 
-motherboard and respective CPU (AMD or Intel).
+motherboard and respective CPU (AMD or Intel). Then you can use VirtualBox/VMM/etc. to start the booting
+process for the OS you want.
 
 ## Partitioning Storage, USB Image Writer/RUFUS, BIOS/VM, and Verify Integrity
   If you want to dual-boot or boot more than a single OS, it is necessary and wise to partition the disk size to
